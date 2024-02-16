@@ -1,0 +1,1 @@
+// Application has a single Footer component that appears on multiple pages.
