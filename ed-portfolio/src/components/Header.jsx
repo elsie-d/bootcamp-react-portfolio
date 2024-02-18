@@ -18,7 +18,7 @@ const styles = {
 
 function Header(){
 return(
-    <header style={styles.headerStyle} class="header">
+    <header style={styles.headerStyle} className="header">
         <h1 style={styles.headingStyle}>Welcome to the wonderful world of Elsieland</h1>
         <Nav />
     </header>
