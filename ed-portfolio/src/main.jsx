@@ -7,11 +7,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Import App Body and Pages
 import App from './App.jsx'
-import Project from './components/pages/Project.jsx'
-import About from './components/pages/About.jsx';
-import Contact from './components/pages/Contact.jsx';
-import Portfolio from './components/pages/Porfolio.jsx';
-import Resume from './components/pages/Resume.jsx';
+import Project from './pages/Project.jsx'
+import About from './pages/About.jsx';
+import Contact from './pages/Contact.jsx';
+import Portfolio from './pages/Porfolio.jsx';
+import Resume from './pages/Resume.jsx';
 
 
 

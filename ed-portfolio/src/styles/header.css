@@ -1,8 +1,9 @@
 .header {
-    display:grid;
-   border-radius: 50px;
-   border-color: aqua;
-   border-width: 50px;
-   height: 50vh;
-   gap: 0px;
+   background-color: #574278; 
+
+   font-family: "Protest Revolution", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+  
+   
     }

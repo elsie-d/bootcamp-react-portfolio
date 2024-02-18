@@ -6,21 +6,20 @@ import'../styles/header.css'
 import Nav from './Nav';
 
 const styles = {
-    headerStyle:{
-        background: 'purple',
-    },
     headingStyle: {
-        color: 'white',
+        color: 'White',
         fontSize: '50px',
+        padding: '15px 0px'
 
     },
 };
 
 function Header(){
 return(
-    <header style={styles.headerStyle} className="header">
-        <h1 style={styles.headingStyle}>Welcome to the wonderful world of Elsieland</h1>
+    <header className='header'>
         <Nav />
+        <h1 style={styles.headingStyle}>Elsie Duarte</h1>
+        <Nav /> 
     </header>
     
 );
