@@ -1,0 +1,16 @@
+.imgCard {
+    padding: 20px;
+}
+.img {
+    border-radius: 20%;
+}
+.aboutTitle {
+height: 10vh;
+padding: 20px;
+background-color: #aabfb1 ;
+border-style: double solid;
+margin-top: 5vh;
+}
+.aboutBio {
+padding: 10px;
+}

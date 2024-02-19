@@ -1,9 +1,10 @@
 .header {
-   background-color: #574278; 
-
+   background-color: #d9ab91; 
    font-family: "Protest Revolution", sans-serif;
-   font-weight: 400;
+   font-weight:400;
    font-style: normal;
+   color: white;
+   padding-top: 10px;
+   height: 12vh
   
-   
     }

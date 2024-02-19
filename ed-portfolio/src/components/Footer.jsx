@@ -2,11 +2,12 @@
 
 const styles = {
     footerStyle:{
-        background: 'green',
+        background: '#aabfb1',
+        height: '50px',
     },
     footerLinksStyle: {
         color: 'purple',
-        fontSize: '25px',
+        fontSize: '15px',
 
     },
 };

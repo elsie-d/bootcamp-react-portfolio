@@ -3,24 +3,21 @@
 // that’s used to conditionally render 
 // About Me, Portfolio, Contact, and Resume sections.
 import'../styles/header.css'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Nav from './Nav';
 
-const styles = {
-    headingStyle: {
-        color: 'White',
-        fontSize: '50px',
-        padding: '15px 0px'
-
-    },
-};
 
 function Header(){
 return(
-    <header className='header'>
-        <Nav />
-        <h1 style={styles.headingStyle}>Elsie Duarte</h1>
-        <Nav /> 
-    </header>
+
+    <Container className='header'>
+    <Row>
+      <Col><h1>Elsie D</h1></Col>
+      <Col><Nav /></Col>
+    </Row>
+  </Container>
     
 );
 }
