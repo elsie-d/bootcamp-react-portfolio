@@ -1,18 +1,25 @@
 import Card from 'react-bootstrap/Card';
-
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../styles/portfolio.css'
 
 export default function Portfolio() {
     return (
-  <div class="container text-center">
+      <Container>
+      <Row>
+        <Col>
 
-  <h1>THIS IS THE PORTFOLIO PAGE</h1>
-        <h2>List All Projects Here</h2>
-  <h3>Use link hook to link to a single Project page</h3>
+  <h2>Explore Projects</h2>
+
   <h3>Team Projects</h3>
-  <div class="row">
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+
+  <Container>
+      <Row>
+        <Col>
+  
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/savory-secrets.jpg" />
       <Card.Body>
         <Card.Title>Savory Secrets</Card.Title>
         <Card.Text>
@@ -21,13 +28,15 @@ export default function Portfolio() {
       </Card.Body>
       <Card.Body>
         <Card.Link href="https://github.com/elsie-d/savory-secrets" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
         <Card.Link href="https://elsie-d.github.io/savory-secrets/" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+    </Col>
+    <Col>
+   
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/artwork-hills-30x30cm-1.jpg" />
       <Card.Body>
         <Card.Title>AI Groovy Graphics</Card.Title>
         <Card.Text>
@@ -36,84 +45,92 @@ export default function Portfolio() {
       </Card.Body>
       <Card.Body>
         <Card.Link href="https://github.com/elsie-d/ai-groovy-graphics" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
         <Card.Link href="https://groovy-graphics-afd292f27b77.herokuapp.com/" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-  </div>
+    </Col>
+  </Row>
+</Container>
+
+
 
  <h3>Individual Challenges</h3>
 
-
-  <div class="row">
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+ <Container>
+      <Row>
+        <Col>
+ 
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/javascript2.jpeg" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>JavaScript Quiz</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          This app test your knowlege on JavaScript basics
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#" target="_blank">GitHub Repo</Card.Link>
-        <Card.Link href="#" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/quiz-time" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
+        <Card.Link href="https://elsie-d.github.io/quiz-time/" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+    </Col>
+    <Col>
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/weather.png" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Weather Forecast</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          See how the weather will be in your area.
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#" target="_blank">GitHub Repo</Card.Link>
-        <Card.Link href="#" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/weather-app" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
+        <Card.Link href="https://elsie-d.github.io/weather-app/" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+    </Col>
+  </Row>
+  <Row>
+    <Col>
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/JATE.png" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Just Another Text Editor</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         Check out and install this progessive web application, use it to save your thoughts and notes. 
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#" target="_blank">GitHub Repo</Card.Link>
-        <Card.Link href="#" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/text-editor-pwa" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
+        <Card.Link href="https://pwa-text-editor-j7kw.onrender.com" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-    <div class="col">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="../src/assets/savory-secrets.jpg" />
+    </Col>
+    <Col>
+    <Card className="cardStyle">
+      <Card.Img className="appImg" variant="top" src="../src/assets/scheduler.png" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Word Day Scheduler</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Use this tool to plan out your day on an hour by hour basis.<br/>&nbsp;
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="#" target="_blank">GitHub Repo</Card.Link>
-        <Card.Link href="#" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/work-day-scheduler" target="_blank">GitHub Repo</Card.Link>
+        &nbsp; |
+        <Card.Link href="https://elsie-d.github.io/work-day-scheduler/" target="_blank">Visit Site</Card.Link>
       </Card.Body>
     </Card>
-    </div>
-  </div>
-</div>
+    </Col>
+  </Row>
+  </Container>
+  </Col>
+      </Row>
+    </Container>
 
 
     );
