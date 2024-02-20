@@ -6,8 +6,9 @@ const styles = {
         height: '50px',
     },
     footerLinksStyle: {
-        color: 'purple',
+        color: '',
         fontSize: '15px',
+        padding: '15px'
 
     },
 };
@@ -16,7 +17,7 @@ function Footer(){
 return(
     <div style={styles.footerStyle}>
         <p style={styles.footerLinksStyle}>
-            GitHub | LinkedIn 
+            <a href="https://github.com/elsie-d" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/elsie-duarte-bb2b8650/" target="_blank">LinkedIn</a> 
         </p>
     </div>
 );

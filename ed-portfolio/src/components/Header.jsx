@@ -14,7 +14,10 @@ return(
 
     <Container className='header'>
     <Row>
-      <Col><h1>Elsie D</h1></Col>
+    <Col><h1>Elsie D</h1></Col>
+        </Row>    
+    <Row className="navRow">
+      
       <Col><Nav /></Col>
     </Row>
   </Container>

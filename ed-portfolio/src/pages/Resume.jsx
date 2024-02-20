@@ -2,6 +2,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../styles/resume.css'
 
 export default function Resume() {
   const onButtonClick = () => {
@@ -15,7 +16,7 @@ export default function Resume() {
 };
 
     return (
-      <Container>
+      <Container className="resBody">
       <Row>
         <Col>
         <center>
@@ -23,7 +24,7 @@ export default function Resume() {
                 <h3>
                     Click below to download a copy of my resume.
                 </h3>
-                <button onClick={onButtonClick}>
+                <button onClick={onButtonClick} className="download">
                     Download PDF
                 </button>
             </center>

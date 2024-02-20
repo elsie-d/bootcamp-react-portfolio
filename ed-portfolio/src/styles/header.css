@@ -5,6 +5,13 @@
    font-style: normal;
    color: white;
    padding-top: 10px;
-   height: 12vh
+   height: 20vh
   
     }
+.navbar-nav{
+    flex-direction: row;  
+    gap: 10px;
+}
+.navRow {
+   justify-content: center;
+}
