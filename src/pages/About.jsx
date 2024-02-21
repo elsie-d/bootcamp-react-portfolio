@@ -12,7 +12,7 @@ export default function About() {
       <Row>
         <Col sm={4} className="imgCard">
         <Card style={{ backgroundColor: '#aabfb1' }}>
-          <Card.Img variant="top" src="/src/assets/Elsie.png" className="img"/>
+          <Card.Img variant="top" src="./public/assets/Elsie.png" className="img"/>
           <Card.Body>
             <Card.Title>Elsie Duarte</Card.Title>
             <Card.Text>
