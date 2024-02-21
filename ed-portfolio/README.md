@@ -1,8 +1,40 @@
-# React + Vite
+# Elsie's Developer Portfolio 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+    
+## Description
+This is an application that was created to display my accomplishments as an upcoming developer. The application is based on the React framework. 
+            
+## Table of Contents
+            
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)       
+- [Questions](#questions)
+            
+## Installation
+Bootstrap
+React
+            
+            
+## Usage
+If you are downloading the codebase to run this application, be sure to start up the project by running `npm i` followed by `npm run dev`to start up the application on your local server. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Otherwise, soon the deployed application will be shared here. Pending netlify log-in issues. 
+
+Preview:
+![screenshot](./src/assets/Screenshot%202024-02-20%20213625.png)
+
+
+
+## License
+ISC
+            
+            
+## Questions?
+Find me on GitHub: <a href="https://github.com/elsie-d" target="_blank">elsie-d</a>
+            
+OR
+            
+Email me at: <a href="mailto:elsie.dh@gmail.com" target="_blank">elsie.dh@gmail.com</a>
