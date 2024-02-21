@@ -2,29 +2,28 @@
 
 
 // Bringing in the required import from 'react-router-dom'
-import { Link } from 'react-router-dom';
-import Navbar from './UI/navBar';
+import { NavLink } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../styles/nav.css'
+//import Navbar from './UI/navBar';
 
-export default function Nav() {
-  // The Navbar UI component will render each of the Link elements in the links prop
-  return (
-    <Navbar
-      links={[
-        <Link key={1} className="nav-link text-light" to="/">
-          About
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/portfolio">
-          Portfolio
-        </Link>,
-          <Link key={3} className="nav-link text-light" to="/resume">
-          Resume
-        </Link>,
-         <Link key={4} className="nav-link text-light" to="/contact">
-         Contact
-       </Link>
-      ]}
-    />
-  );
+function NavBar () {
+  return  (
+
+    <Container>
+    <Row className='nav'>
+      <Col><NavLink to="/" className='navLink'>About</NavLink></Col>
+      <Col><NavLink to="/portfolio" className='navLink'>Portfolio</NavLink></Col>
+      <Col><NavLink to="/contact" className='navLink'>Contact</NavLink></Col>
+      <Col><NavLink to="/resume" className='navLink'>Resume</NavLink></Col>
+      
+    </Row>
+    
+  </Container>
+
+  )
 }
 
-
+export default NavBar

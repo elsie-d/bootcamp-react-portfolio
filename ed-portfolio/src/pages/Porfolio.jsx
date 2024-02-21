@@ -116,7 +116,7 @@ export default function Portfolio() {
       <Card.Body>
         <Card.Title>Word Day Scheduler</Card.Title>
         <Card.Text>
-          Use this tool to plan out your day on an hour by hour basis.<br/>&nbsp;
+          Use this tool to plan out your day on an hour by hour basis.
         </Card.Text>
       </Card.Body>
       <Card.Body>

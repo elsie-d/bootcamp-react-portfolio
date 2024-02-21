@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -27,8 +26,8 @@ export default function Contact() {
       <Container className="contactPage">
       <Row>
         <Col>
-        <h2>Stay in touch</h2>
-        <p>Drop a message, I'll respond in a timeley maner.</p>
+        <h2>Stay in touch!</h2>
+        <p>Fill out this form to submit your message.</p>
 
         <Container>
       <Row>

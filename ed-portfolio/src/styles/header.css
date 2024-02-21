@@ -5,13 +5,7 @@
    font-style: normal;
    color: white;
    padding-top: 10px;
-   height: 20vh
+   height: 100%;
+  
   
     }
-.navbar-nav{
-    flex-direction: row;  
-    gap: 10px;
-}
-.navRow {
-   justify-content: center;
-}

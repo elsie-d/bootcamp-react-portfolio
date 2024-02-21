@@ -1,0 +1,21 @@
+.nav {
+  background-color: #aabfb1;
+  padding: 10px;
+  height:100%;
+
+}
+.col a{
+  color: #876d37;
+}
+.col a:not(.active) {
+    color: white;
+  }
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 10px 50px 10px;
+}  
+  

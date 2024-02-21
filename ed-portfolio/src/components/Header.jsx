@@ -6,7 +6,7 @@ import'../styles/header.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Nav from './Nav';
+
 
 
 function Header(){
@@ -16,10 +16,7 @@ return(
     <Row>
     <Col><h1>Elsie D</h1></Col>
         </Row>    
-    <Row className="navRow">
-      
-      <Col><Nav /></Col>
-    </Row>
+
   </Container>
     
 );
