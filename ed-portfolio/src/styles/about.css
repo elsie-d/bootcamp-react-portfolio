@@ -1,16 +1,22 @@
 .imgCard {
     padding: 20px;
+    border: none;
 }
 .img {
     border-radius: 20%;
 }
 .aboutTitle {
-height: 10vh;
+height: 20%;
 padding: 20px;
 background-color: #aabfb1 ;
-border-style: double solid;
-margin-top: 5vh;
+border-radius: 2%;
+margin-top: 2vh;
+font-family: "Protest Revolution", sans-serif;
+color: white;
 }
 .aboutBio {
 padding: 10px;
+}
+.quote {
+    font-style: italic;
 }

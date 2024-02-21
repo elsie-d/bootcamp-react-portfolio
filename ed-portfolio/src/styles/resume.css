@@ -1,6 +1,15 @@
 .resBody{
-    padding: 40px 0;
+    padding: 0px 0 100px 0;
    
+}
+.resume {
+    height: 80%;
+    padding: 20px;
+    background-color: #aabfb1 ;
+    border-radius: 2%;
+    margin-top: 2vh;
+    font-family: "Protest Revolution", sans-serif;
+    color: white;
 }
 .download {
     background-color: #aabfb1 ;

@@ -16,9 +16,7 @@ export default function About() {
           <Card.Body>
             <Card.Title>Elsie Duarte</Card.Title>
             <Card.Text>
-            Intellectual <br/>
-            Visionary<br/>
-            Open-minded <br/>
+            <p className="quote">"Embrace the journey of becoming the person you aspire to be, for in the pursuit of your dreams, you inspire not only yourself but those around you." <br/><br/> - Anonymous</p>
             </Card.Text>
       </Card.Body>
     </Card>
@@ -28,7 +26,7 @@ export default function About() {
         <Col sm={8}>
         <Container className="aboutTitle">
          <Row>
-          <Col>About Me</Col>
+          <Col><h1 className='about'>About Me</h1></Col>
         </Row>
          </Container>
          <Container className="aboutBio">

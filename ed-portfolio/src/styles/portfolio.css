@@ -1,3 +1,12 @@
+.portfolio {
+    height: 80%;
+    padding: 20px;
+    background-color: #aabfb1 ;
+    border-radius: 2%;
+    margin-top: 2vh;
+    font-family: "Protest Revolution", sans-serif;
+    color: white;
+    }
 h2 {
     padding: 40px 0;
 }
@@ -10,7 +19,7 @@ h3 {
 }
 
 .cardStyle{
-    margin: 20px 10px ;
+    margin: 40px 60px ;
     border-radius: 10%;
     border: 5px solid #876d37;
     background-color: #e6ddd3;

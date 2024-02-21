@@ -19,15 +19,18 @@ export default function Resume() {
       <Container className="resBody">
       <Row>
         <Col>
-        <center>
-                <h2>Interested in my background?</h2>
-                <h3>
+        
+        <Row>
+          <Col><h1 className="resume">Resume</h1></Col>
+        </Row>
+                <h4>
                     Click below to download a copy of my resume.
-                </h3>
-                <button onClick={onButtonClick} className="download">
-                    Download PDF
+                    <br/><br/>
+                </h4>
+                <button onClick={onButtonClick} className="download" style={{color: "#876d37"}}>
+                    Download Resume
                 </button>
-            </center>
+            
    
       </Col>
       </Row>

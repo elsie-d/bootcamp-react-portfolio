@@ -17,7 +17,7 @@ function Footer(){
 return(
     <div style={styles.footerStyle}>
         <p style={styles.footerLinksStyle}>
-            <a href="https://github.com/elsie-d" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/elsie-duarte-bb2b8650/" target="_blank">LinkedIn</a> 
+            <a href="https://github.com/elsie-d" target="_blank" style={{color: "white"}}>GitHub</a> | <a href="https://www.linkedin.com/in/elsie-duarte-bb2b8650/" target="_blank" style={{color: "white"}}>LinkedIn</a> 
         </p>
     </div>
 );

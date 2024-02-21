@@ -7,7 +7,6 @@ import './index.css'
 
 // Import App Body and Pages
 import App from './App.jsx'
-import Project from './pages/Project.jsx'
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Porfolio.jsx';
@@ -34,14 +33,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'portfolio',
-        element: <Portfolio />,
-        children: [
-             {
-              path: 'project/:id',
-              element: <Project />,
-             } 
-        ]
-      }
+        element: <Portfolio />
+      },
     ]
   }
 ])

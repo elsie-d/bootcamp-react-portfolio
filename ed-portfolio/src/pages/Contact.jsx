@@ -26,7 +26,9 @@ export default function Contact() {
       <Container className="contactPage">
       <Row>
         <Col>
-        <h2>Stay in touch!</h2>
+        <Row>
+          <Col><h1 className="portfolio">Stay in Touch</h1></Col>
+        </Row>
         <p>Fill out this form to submit your message.</p>
 
         <Container>

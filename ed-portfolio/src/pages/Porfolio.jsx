@@ -10,7 +10,9 @@ export default function Portfolio() {
       <Row>
         <Col>
 
-  <h2>Explore Projects</h2>
+        <Row>
+          <Col><h1 className="portfolio">Explore Portfolio</h1></Col>
+        </Row>
 
   <h3>Team Projects</h3>
 
@@ -27,9 +29,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/savory-secrets" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/savory-secrets" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://elsie-d.github.io/savory-secrets/" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://elsie-d.github.io/savory-secrets/" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
@@ -44,9 +46,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/ai-groovy-graphics" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/ai-groovy-graphics" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://groovy-graphics-afd292f27b77.herokuapp.com/" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://groovy-graphics-afd292f27b77.herokuapp.com/" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
@@ -70,9 +72,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/quiz-time" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/quiz-time" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://elsie-d.github.io/quiz-time/" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://elsie-d.github.io/quiz-time/" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
@@ -86,9 +88,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/weather-app" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/weather-app" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://elsie-d.github.io/weather-app/" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://elsie-d.github.io/weather-app/" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
@@ -104,9 +106,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/text-editor-pwa" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/text-editor-pwa" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://pwa-text-editor-j7kw.onrender.com" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://pwa-text-editor-j7kw.onrender.com" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
@@ -120,9 +122,9 @@ export default function Portfolio() {
         </Card.Text>
       </Card.Body>
       <Card.Body>
-        <Card.Link href="https://github.com/elsie-d/work-day-scheduler" target="_blank">GitHub Repo</Card.Link>
+        <Card.Link href="https://github.com/elsie-d/work-day-scheduler" target="_blank" style={{color: "#876d37"}}>GitHub Repo</Card.Link>
         &nbsp; |
-        <Card.Link href="https://elsie-d.github.io/work-day-scheduler/" target="_blank">Visit Site</Card.Link>
+        <Card.Link href="https://elsie-d.github.io/work-day-scheduler/" target="_blank" style={{color: "#876d37"}}>Visit Site</Card.Link>
       </Card.Body>
     </Card>
     </Col>
