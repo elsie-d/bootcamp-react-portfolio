@@ -19,9 +19,11 @@ React
             
             
 ## Usage
-Check out the [depployed app here](https://elsie-portfolio.netlify.app/).
+Check out the [deployed app here](https://elsie-portfolio.netlify.app/).
 
 If you prefer to run the app on your local machine download the codebase, and be sure to start up the project by running `npm i` followed by `npm run dev`. The app will default to run on localholst:3000 unless otherwise specified. 
+
+Happy browsing! :) 
 
 Preview:
 ![screenshot](./public/assets/Screenshot%202024-03-20%20at%209.32.32%20PM.png)
