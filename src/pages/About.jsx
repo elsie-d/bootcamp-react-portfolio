@@ -31,7 +31,7 @@ export default function About() {
          </Container>
          <Container className="aboutBio">
          <Row >
-          <Col >My name is Elsie (pronounced "L.C." 😉), and I am only a few weeks away from completing a Full-Stack Developer bootcamp course through UC Davis. For the past few months I've had very little free time to enjoy hobbies such as hiking, dancing, and cooking but it's ok because my time at the bootcamp has been worth the learning experice! I came in to the course with basic understanding of HTML and CSS and am about to finish it up with a vast knowledgebase that covers the client, server, and database.   </Col>
+          <Col >My name is Elsie (pronounced "L.C." 😉), and I am a recent Full-Stack Developer bootcamp graduate from the edEx UC Davis program. For the past few months I've had very little free time to enjoy hobbies such as hiking, dancing, and cooking but it's ok because my time at the bootcamp has been worth the learning experice! I came in to the course with basic understanding of HTML and CSS and finished up with a vast knowledgebase that covers the client, server, and database. Technologies I learned include JavaScript, Node, SQL, MongoDB, and React, my personal favorite being JavaScript.  </Col>
         </Row>
          </Container>
 
