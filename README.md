@@ -24,7 +24,7 @@ If you are downloading the codebase to run this application, be sure to start up
 Otherwise, soon the deployed application will be shared here. Pending netlify log-in issues. 
 
 Preview:
-![screenshot](./src/assets/Screenshot%202024-02-20%20213625.png)
+![screenshot](./public/assets/Screenshot%202024-03-20%20at%209.32.32%20PM.png)
 
 
 
