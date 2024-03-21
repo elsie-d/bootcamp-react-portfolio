@@ -21,7 +21,7 @@ export default function Portfolio() {
         <Col>
   
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/savory-secrets.jpg" />
+      <Card.Img className="appImg" variant="top" src="/assets/savory-secrets.jpg" />
       <Card.Body>
         <Card.Title>Savory Secrets</Card.Title>
         <Card.Text>
@@ -38,7 +38,7 @@ export default function Portfolio() {
     <Col>
    
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/artwork-hills-30x30cm-1.jpg" />
+      <Card.Img className="appImg" variant="top" src="/assets/artwork-hills-30x30cm-1.jpg" />
       <Card.Body>
         <Card.Title>AI Groovy Graphics</Card.Title>
         <Card.Text>
@@ -64,7 +64,7 @@ export default function Portfolio() {
         <Col>
  
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/javascript2.jpeg" />
+      <Card.Img className="appImg" variant="top" src="/assets/javascript2.jpeg" />
       <Card.Body>
         <Card.Title>JavaScript Quiz</Card.Title>
         <Card.Text>
@@ -80,7 +80,7 @@ export default function Portfolio() {
     </Col>
     <Col>
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/weather.png" />
+      <Card.Img className="appImg" variant="top" src="/assets/weather.png" />
       <Card.Body>
         <Card.Title>Weather Forecast</Card.Title>
         <Card.Text>
@@ -98,7 +98,7 @@ export default function Portfolio() {
   <Row>
     <Col>
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/JATE.png" />
+      <Card.Img className="appImg" variant="top" src="/assets/JATE.png" />
       <Card.Body>
         <Card.Title>Just Another Text Editor</Card.Title>
         <Card.Text>
@@ -114,7 +114,7 @@ export default function Portfolio() {
     </Col>
     <Col>
     <Card className="cardStyle">
-      <Card.Img className="appImg" variant="top" src="./public/assets/scheduler.png" />
+      <Card.Img className="appImg" variant="top" src="/assets/scheduler.png" />
       <Card.Body>
         <Card.Title>Word Day Scheduler</Card.Title>
         <Card.Text>
